@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:tibex="http://www.tibco.com/bpel/2007/extensions" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/sendhttpresponse/61ef41d1-76e0-4381-9ac6-8c1a4131626a" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.tibco.com/namespaces/tnt/plugins/sendhttpresponse/61ef41d1-76e0-4381-9ac6-8c1a4131626a">
+  <xsd:complexType name="InputHeaders" tibex:source="bw.http.sendHTTPResponse">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="StatusLine" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Content-Type" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Set-Cookie" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Pragma" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Location" type="xsd:string"/>
+        </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

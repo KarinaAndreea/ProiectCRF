@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:tibex="http://www.tibco.com/bpel/2007/extensions" xmlns:tns="http://www.tibco.com/namespaces/tnt/plugins/httpreceiver/25f11a52-e686-4991-b06c-7949e772ea45" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.tibco.com/namespaces/tnt/plugins/httpreceiver/25f11a52-e686-4991-b06c-7949e772ea45">
+  <xsd:complexType name="OutputHeaders" tibex:source="bw.http.HTTPReceiver">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Accept" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Accept-Charset" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Accept-Encoding" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Content-Type" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Content-Length" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Connection" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Cookie" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Pragma" type="xsd:string"/>
+            <xsd:element name="primitive" type="xsd:string"/>
+        </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

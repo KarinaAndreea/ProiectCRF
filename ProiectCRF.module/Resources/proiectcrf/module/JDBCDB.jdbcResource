@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:subject="http://xsd.tns.tibco.com/trinity/models/identity/subject" xmi:id="_ehtXMcJdEemr-cxKa56d6w" name="romeolab.module.JDBCDB" type="jdbc:JdbcDataSource">
+  <jndi:reference xmi:id="_eh7ZoMJdEemr-cxKa56d6w" key="subjectJndiName" type="subject:SubjectConfiguration" value=""/>
+  <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_eh7ZocJdEemr-cxKa56d6w" username="ROMEO" password="#!rFG2a7YE8IYFewy3rNkU4qvQ4Ah9yZK9">
+    <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_eh7ZosJdEemr-cxKa56d6w" jdbcDriver="oracle.jdbc.OracleDriver" dbURL="jdbc:oracle:thin:@localhost:1521:orcl"/>
+    <connectionProperties xmi:id="_hNY6UMJdEemr-cxKa56d6w" key="jarFile" value="ojdbc"/>
+  </jndi:configuration>
+</jndi:namedResource>

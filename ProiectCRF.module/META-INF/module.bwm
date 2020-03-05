@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_A28REMJVEemr-cxKa56d6w" targetNamespace="http://tns.tibco.com/bw/composite/ROMEOLAB.module" name="ROMEOLAB.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_BEdIoMJVEemr-cxKa56d6w" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_BEgL8MJVEemr-cxKa56d6w" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_BEhaEMJVEemr-cxKa56d6w" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_BEioMMJVEemr-cxKa56d6w" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_BEjPQMJVEemr-cxKa56d6w" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_BEkdYMJVEemr-cxKa56d6w" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_BElEcMJVEemr-cxKa56d6w" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_BEmSkMJVEemr-cxKa56d6w" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_BEngsMJVEemr-cxKa56d6w" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_A-Ez0MJVEemr-cxKa56d6w" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_A-Ez0cJVEemr-cxKa56d6w" processName="romeolab.module.Start"/>
+  </sca:component>
+  <sca:component xmi:id="__pgqAMf5Eemk9JVNfCTnhA" name="ComponentGUIHandle" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="__pgqAcf5Eemk9JVNfCTnhA" processName="romeolab.module.GUIHandle"/>
+  </sca:component>
+</sca:composite>
